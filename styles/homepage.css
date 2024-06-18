@@ -21,6 +21,7 @@ header {
     display: flex;
     background-color: var(--primary-color);
     color: var(--text-color);
+    align-items: left;
 }
 
 header h1 {
@@ -36,6 +37,7 @@ header h1 {
 header img {
     margin: 10px;
     border-radius: 25%;
+    justify-content: left;
 }
 
 #menu::before {
@@ -82,7 +84,7 @@ main {
     margin: 20px;
     border-radius: 15px;
     border: solid 1px black;
-    text-align: center;
+    text-align: left;
 }
 
 .card-content {
