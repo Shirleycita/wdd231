@@ -37,7 +37,6 @@ header h1 {
 header img {
     margin: 10px;
     border-radius: 25%;
-    justify-content: left;
 }
 
 #menu::before {
