@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gilbert | Chamber of Commerce | Directory</title>
+    <meta name="author" content="Shirley Hatch">
+    <!-- <meta name="description" content="Resource hub for businesses in Gilbert. Provides information on entertainment, networking, shopping, and turism."> -->
+    <meta name="description" content="Discover and connect with local businesses in Gilbert. Explore our Chamber of Commerce directory to find trusted members, services, and community resources.">
+    <meta property="og:title" content="Gilbert | Chamber of Commerce | Directory">
+    <meta property="og:description" content="Discover and connect with local businesses in Gilbert. Explore our Chamber of Commerce directory to find trusted members, services, and community resources.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://heathergibb.github.io/wdd231/chamber/images/hero.webp">
+    <meta property="og:url" content="https://shirleycita.github.io/wdd231/chamber/directory.html">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/styles-large.css">
+    <link rel="icon" href="./images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <script src="scripts/header-footer.js" defer></script>
+    <script src="scripts/directory.js" type="module"></script>
+    <script src="scripts/members.js" type="module"></script>
+</head>
+<body>
+    <header>
+        <a id="logo-link" href="index.html">
+            <img class="logo" src="images/logo.webp" alt="logo of town of Gilbert" width="100" height="100">
+        </a>
+        <div id="header-titles">
+            <h1>Gilbert</h1>
+            <p>Chamber of Commerce</p>
+        </div>
+        <nav class="menu-links">
+            <a href="index.html">Home</a>
+            <a href="directory.html">Directory</a>
+            <a href="join.html">Join</a>
+            <a href="discover.html">Discover</a>
+        </nav>
+        <div id="menu"></div>
+    </header>
+    <main>
+        <div id="directory-container">
+            <h1 class="main-heading">Directory</h1>
+            <div class="dir-layout">
+                <input type="radio" name="dir-grid-list" id="dir-grid-view" checked>
+                <label for="dir-grid-view">Grid</label>
+
+                <input type="radio" name="dir-grid-list" id="dir-list-view">
+                <label for="dir-list-view">List</label>
+            </div>
+
+            <div id="directory-cards" class="dir-grid"></div>
+        </div>
+    </main>
+    <footer>
+        <div id="contact-info">
+            <p class="footer-title">Town of Gilbert Chamber of Commerce</p>
+            <p>119 N Gilbert Rd #101</p>
+            <p>Gilbert, AZ 85234</p>
+            <p>info@townofgilbert.com</p>
+            <p>(480) 892-0056</p>   
+        </div>
+        <div id="social">
+            <a href="https://youtube.com" target="_blank">
+                <img src="images/youtube.svg" alt="youtube icon" width="48" height="48">
+            </a>
+            <a href="https://tiktok.com" target="_blank">
+                <img src="images/tiktok.svg" alt="twitter icon" width="48" height="48">
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="images/instagram.svg" alt="linkdin icon" width="48" height="48">
+            </a>
+        </div>
+        <div id="copyright-info">
+            <p>WDD231 Class Project</p>
+            <p>Shirley Hatch</p>
+            <p>&copy;<span id="currentYear"></span> Gilbert Chamber of Commerce</p>
+            <p>Last Modification: <span id="lastModified"></span></p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -7,7 +7,7 @@
             "phone": "(480) 855-8544",
             "email": "contactross@rossstores.com",
             "url": "https://www.rossstores.com/",
-            "image": "",
+            "image": "..?chamber/images/ross.jpg",
             "memberLevel": 3
         },
         {
@@ -16,7 +16,7 @@
             "phone": "(480) 935-3687",
             "email": "questions@bunky.com",
             "url": "https://bunkyboutique.com/",
-            "image": "",
+            "image": "..?chamber/images/bunky.webp",
             "memberLevel": 2
         },
         {
@@ -25,7 +25,7 @@
             "phone": "(602) 433-7000",
             "email": "costumerservice@financialcredit.com",
             "url": "https://www.desertfinancial.com/en/",
-            "image": "",
+            "image": "..?chamber/images/desert.png",
             "memberLevel": 2
         },
         {
@@ -34,7 +34,7 @@
             "phone": "480-992-9316",
             "email": "contacttheshop@gmail.com",
             "url": "https://www.sipandshoparizona.com/",
-            "image": "../",
+            "image": "..?chamber/images/the-shop.webp",
             "memberLevel": 1
         },
         {
@@ -43,7 +43,7 @@
             "phone": "(480) 615-4411",
             "email": "info@frutilandiausa.com",
             "url": "https://frutilandiausa.com/",
-            "image": "",
+            "image": "..?chamber/images/frutilandia.jpg",
             "memberLevel": 1
         },
         {
@@ -52,7 +52,7 @@
             "phone": "(480) 503-6200",
             "email": "gilbert.digital@gilbertaz.gov",
             "url": "https://www.gilbertaz.gov/",
-            "image": "",
+            "image": "..?chamber/images/gilbert.webp",
             "memberLevel": 3
         },
         {
@@ -61,7 +61,7 @@
             "phone": "(480) 282-9500",
             "email": "info@sshopsantanvillage.com",
             "url": "https://www.shopsantanvillage.com/",
-            "image": "../chamber/images/coop-card.webp",
+            "image": "..?chamber/images/santan.jpeg",
             "memberLevel": 2
         }
     ]
