@@ -145,6 +145,7 @@ header {
 #home-cards, #directory-cards {
     display: flex;
     flex-direction: column;
+    border: black solid 1px;
 }
 
 .home-card {
