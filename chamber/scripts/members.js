@@ -3,9 +3,12 @@ const memberData = "../chamber/data/members.json";
 async function getMemberData() {
     try {
         const response = await fetch(memberData);
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
         const data = await response.json();
-        
-        return (data.members);
+        console.log("Fetched member data:", data);
+        return data.members;
     } catch (error) {
         console.error('Error fetching member data:', error);
     }
@@ -20,6 +23,13 @@ export async function displayMembers(cards, filtered = false) {
     } else {
         memberList = await getMemberData();
     }
+
+    if (!memberList) {
+        console.error("No member data found.");
+        return;
+    }
+
+    console.log("Displaying members:", memberList);
 
     memberList.forEach((member) => {
         let card = document.createElement("section");
@@ -95,4 +105,4 @@ async function filterMembers() {
     } catch (error) {
         console.error("Error displaying members: ", error);
     }  
-}s
+}
