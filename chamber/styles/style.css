@@ -44,7 +44,7 @@ header {
 
 #header-titles h1 {
     margin: 0;
-    font-size: 1.75rem;
+    font-size: 2rem;
 }
 
 #menu {
@@ -78,9 +78,6 @@ header {
     grid-row: 2/3;
 }
 
-.menu-links .active {
-    text-decoration: underline;
-}
 .menu-links a {
     display: block;
     text-decoration: none;
