@@ -372,58 +372,6 @@ footer p {
     margin-right: 10px;
 }
 
-.radio-button.np {
-    animation: pulseNP 2s infinite;
-}
-
-.radio-button.bronze {
-    animation: pulseBronze 2s infinite;
-}
-
-.radio-button.silver {
-    animation: pulseSilver 2s infinite;
-}
-
-.radio-button.gold{
-    animation: pulseGold 2s infinite;
-}
-
-@keyframes pulseNP {
-    0% {
-        box-shadow: 0 0 0 0px black;
-    }
-    100% {
-        box-shadow: 0 0 0 5px rgba(0, 0, 0, 0);
-    }
-}
-
-@keyframes pulseBronze {
-    0% {
-        box-shadow: 0 0 0 0px brown;
-    }
-    100% {
-        box-shadow: 0 0 0 5px rgba(0, 0, 0, 0);
-    }
-}
-
-@keyframes pulseSilver {
-    0% {
-        box-shadow: 0 0 0 0px slategray;
-    }
-    100% {
-        box-shadow: 0 0 0 5px rgba(0, 0, 0, 0);
-    }
-}
-
-@keyframes pulseGold {
-    0% {
-        box-shadow: 0 0 0 0px gold;
-    }
-    100% {
-        box-shadow: 0 0 0 5px rgba(0, 0, 0, 0);
-    }
-}
-
 #membership-level-link {
     text-align: center;
     text-decoration: underline;
