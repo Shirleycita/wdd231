@@ -336,11 +336,11 @@ footer p {
 }
 
 .join-form input:required, .join-form input:invalid {
-    border-left: 5px solid maroon;
+    border-left: 5px solid blue;
 }
 
 .join-form input:valid, .join-form textarea:valid {
-    border-left: 5px solid green;
+    border-left: 5px solid blue;
 }
 
 .join-form fieldset {
