@@ -1,8 +1,8 @@
 :root {
-    --primary-color: hwb(0 1% 40% / 0.982);
+    --primary-color: gray;
     --secondary-color: black;
     --background-color: white;
-    --text-color: white;
+    --text-color: black;
     --text-color-dark: rgb(6, 25, 48);
     --font-family-sans: Patrick Hand;
     --font-family-serif: Patrick Hand;
@@ -132,8 +132,7 @@ main {
     bottom: 25px;
     right: 25px;
     background-color: var(--secondary-color);
-    color: var(--text-color);
-    font-family: var(--font-family-serif);
+    color: white;
     text-wrap: wrap;
     height: 50px;
     width: 200px;
@@ -177,7 +176,7 @@ main {
     margin: 0;
     font-size: 1rem;
     background-color: var(--secondary-color);
-    color: var(--text-color);
+    color: White;
     padding: 10px;
 }
 
@@ -297,6 +296,15 @@ footer {
     font-size: .9rem;
 }
 
+.footer-link {
+    color: black;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    text-decoration: underline; 
+}
+
 footer p {
     margin: 0;
     padding: 2px;
@@ -357,11 +365,11 @@ footer p {
     resize: vertical; 
 }
 .join-form input:required, .join-form input:invalid {
-    border-left: 5px solid blue;
+    border-left: 5px solid gold;
 }
 
 .join-form input:valid, .join-form textarea:valid {
-    border-left: 5px solid blue;
+    border-left: 5px solid gold;
 }
 
 .join-form fieldset {
@@ -496,6 +504,24 @@ footer p {
     max-width: 300px;
     width: 100%;
     height: auto;
+}
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: black; 
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button-link:hover {
+    background-color: #0056b3; 
 }
 
 .card-content li {
