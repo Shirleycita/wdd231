@@ -19,8 +19,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     <script src="scripts/header-footer.js" defer></script>
-    <script src="scripts/home.js" type="module"></script>
-    <script src="scripts/members.js" type="module"></script>
+    <script src="scripts/join.js" defer></script>
     
 </head>
 <body>
@@ -41,49 +40,19 @@
         <div id="menu"></div>
     </header>
     <main>
-        <div class="hero">
-            <picture>
-                <source media="(min-width: 1000px)" srcset="images/hero-large.webp">
-                <source media="(min-width: 700px)" srcset="images/hero-med.webp">
-                <img src="images/hero.webp" alt="hero image" width="700" height="280">
-            </picture>
-            <button>Join Today!</button>
-        </div>
-        <div id="home-container">
-            <h1 class="main-heading">Home</h1>
-            
-            <section id="home-cards">
-                <div id="events" class="home-card">
-                    <h2>Events</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </div>
-                <div id="current-weather" class="home-card">
-                    <h2>Current Weather</h2>
-                    <div id="current-weather-container">
-                        <div id="weather-icon"></div>
-                        <div id="current-weather-details">
-                            <p id="temp" class="temps"></p>
-                            <p id="temp-desc"></p>
-                            <p class="card-label">High:<span id="high"></span></p>
-                            <p class="card-label">Low:<span id="low"></span></p>
-                            <p class="card-label">Humidity:<span id="humidity"></span></p>
-                            <!-- <p class="card-label">Sunrise:<span id="sunrise"></span></p>
-                            <p class="card-label">Sunset:<span id="sunset"></span></p> -->
-                        </div>
-                    </div>
-                </div>
-                <div id="weather-forecast" class="home-card">
-                    <h2>Weather Forecast</h2>
-                    <div id="forecast-details">
-                        <span id="first"></span>
-                        <span id="second"></span>
-                        <span id="third"></span>
-                    </div>
-                </div>
-            </section>
+        <div id="join-container">
+            <h1 class="main-heading">Please subscribe to our Newsletter</h1>
 
-            <div id="home-dir-cards">
-
+            <div id="form-container">
+                <h2>Subscribe</h2>
+                <form method="get" action="thankyou.html" class="join-form">
+                    <label class="form-label">First Name:<input type="text" class="form-input" name="first" required autocomplete="given-name" title="Your First Name"></label>
+                    <label class="form-label">Last Name:<input type="text" class="form-input" name="last" required autocomplete="family-name" title="Your Last Name"></label>
+                    <label class="form-label">Email:<input type="email" class="form-input" required name="email" title="Email address" autocomplete="email" placeholder="SampleEmail@gmail.com"></label>
+                    <label class="form-label">Phone:<input type="tel" class="form-input" required name="phone" title="Cell Phone Number" autocomplete="tel"></label>
+                    <input type="hidden" id="timestamp" name="timestamp">
+                    <input type="submit" id="submit-button" value="Click to Submit">
+                </form>
             </div>
         </div>
     </main>
