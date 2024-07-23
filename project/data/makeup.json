@@ -1,0 +1,29 @@
+{
+    "members": 
+    [
+        {
+            "name": "Rare Beauty",
+            "address": "3831 S Gilbert Rd, Gilbert, AZ 85297",
+            "phone": "(480) 855-8544",
+            "email": "contact@rarebeauty.com",
+            "url": "https://www.rarebeauty.com/",
+            "image": "../project/images/rarebeauty.webp"
+        },
+        {
+            "name": "Fenty Beauty",
+            "address": "3150 E Ray Rd #174, Gilbert, AZ 85296",
+            "phone": "(480) 935-3687",
+            "email": "info@fentybeauty.com",
+            "url": "https://https://fentybeauty.com/",
+            "image": "../project/images/fenty.webp"
+        },
+        {
+            "name": "Makeup Revolution",
+            "address": "2925 S Market St, Gilbert, AZ 85295",
+            "phone": "(602) 433-7000",
+            "email": "support@makeuprevolution.com",
+            "url": "https://www.revolutionbeauty.com/us/us/home",
+            "image": "../project/images/makeuprevolution.webp"
+        }
+    ]
+}
