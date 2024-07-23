@@ -1,4 +1,4 @@
-const memberData = "../project/data/makeup.json";
+const memberData = "../project/data/members.json";
 
 async function getMemberData() {
     try {

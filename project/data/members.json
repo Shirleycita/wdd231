@@ -1,4 +1,5 @@
-
+{
+    "members": 
     [
         {
             "name": "Rare Beauty",
@@ -25,3 +26,4 @@
             "image": "../project/images/makeuprevolution.webp"
         }
     ]
+}
