@@ -1,4 +1,4 @@
-const memberData = "../project/data/members.json";
+const memberData = "https://shirleycita.github.io/wdd231//project/data/members.json";
 
 async function getMemberData() {
     try {
