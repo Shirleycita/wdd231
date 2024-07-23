@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gilbert | Chamber of Commerce | Discover</title>
+    <meta name="author" content="Shirley Hatch">
+    <meta name="description" content="Resource for Gilbert AZ. Provides information on events, networking, directories, and shopping.">
+    <meta property="og:title" content="Gilbert | Chamber of Commerce | Discover">
+    <meta property="og:description" content="Resource hub for businesses in Gilbert. Provides information on events, networking, directories, and shopping.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://shirleycita.github.io/wdd231/chamber/images/hero.webp">
+    <meta property="og:url" content="https://shirleycita.github.io/wdd231/chamber/discover.html">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/discover.css">
+    <link rel="stylesheet" href="styles/styles-large.css">
+    <link rel="icon" href="./images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <script src="scripts/header-footer.js" defer></script>
+    <script src="scripts/discover.js" defer></script>
+    
+</head>
+<body>
+    <header>
+        <a id="logo-link" href="index.html">
+            <img class="logo" src="images/logo.webp" alt="City of Gilbert logo" width="100" height="100">
+        </a>
+        <div id="header-titles">
+            <h1>Gilbert</h1>
+            <p>Chamber of Commerce</p>
+        </div>
+        <nav class="menu-links">
+            <a href="index.html" class="active">Home</a>
+            <a href="directory.html">Directory</a>
+            <a href="join.html">Join</a>
+            <a href="discover.html">Discover</a>
+        </nav>
+        <div id="menu"></div>
+    </header>
+    <main>
+        <div id="discover-container">
+            <h1 class="main-heading">Discover Gilbert, AZ</h1>
+
+            <div class="sidebar">
+                <div id="welcome">
+                    <h2>Welcome</h2>
+                    <p class="card-content" id="user-visit-msg"></p>
+                </div>
+                <div id="about">
+                    <h2>About Gilbert</h2>
+                    <ul class="card-content">
+                        <li><p><span class="card-label">Founded:</span>1898</p></li>
+                        <li><p><span class="card-label">Population:</span>275,346 (2024)</p></li>
+                        <li><p><span class="card-label">% of Population LDS:</span>12% </p></li>
+                        <li><p><span class="card-label">Expected Population by 2030:</span>330,000 </p></li>
+                    </ul>
+                </div>
+                <div id="upcoming-events">
+                    <h2>Upcoming Events</h2>
+                    <div class="card-content" id="event-img">
+                        <a class="card-content" href="https://arizonafairsandfestivals.com/Gilbert-AZ" target="_blank">
+                            <img src="images/gilbert-fair.jpeg" width="300" height="300" alt="Upcoming Gilbert Street Fairs">
+                        </a>
+                    </div>
+                </div>
+                <div id="development">
+                    <h2>Upcoming Development</h2>
+                    <p class="card-content" >The District at Cooley Station will include two four-story buildings, parking garages, and commercial development. 
+                        Another project, Heritage Park, is a $300 million mixed-use development that will include a hotel, apartments, office building, restaurants, and retail </p>
+                </div>
+            </div>
+            <div id="img-area">
+                <figure>
+                    <img src="images/ala.jpg" alt="Top rated school in Gilbert" class="discover-img" loading="lazy" width="800" height="600">
+                    <figcaption>American Leadership Academy #1 Rated School in Gilbert</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/splashpad.jpeg" alt="Splash pad in Gilbert" class="discover-img" loading="lazy" width="800" height="600">
+                    <figcaption>Splash Pad for those HOT summer days!</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/temple.jpg" alt="Gilbert Temple" class="discover-img" loading="lazy" width="800" height="600">
+                    <figcaption>Gilbert Temple open to visitors</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/downtown.jpg" alt="" class="discover-img" loading="lazy" width="800" height="600">
+                    <figcaption>Downtown Gilbert Nightlife</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/house.jpeg" alt="Cookie cutter houses" class="discover-img" loading="lazy" width="800" height="600">
+                    <figcaption>Style of the houses in Gilbert, AZ</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/lake.jpg" alt="Fishing lake in Gilbert" class="discover-img" loading="lazy" width="800" height="600">
+                    <figcaption>Best fishing lake</figcaption>
+                </figure>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="contact-info">
+            <p class="footer-title">Town of Gilbert Chamber of Commerce</p>
+            <p>119 N Gilbert Rd #101</p>
+            <p>Gilbert, AZ 85234</p>
+            <p>info@townofgilbert.com</p>
+            <p>(480) 892-0056</p>   
+        </div>
+        <div id="social">
+            <a href="https://youtube.com" target="_blank">
+                <img src="images/youtube.svg" alt="youtube icon" width="48" height="48">
+            </a>
+            <a href="https://tiktok.com" target="_blank">
+                <img src="images/tiktok.svg" alt="twitter icon" width="48" height="48">
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="images/instagram.svg" alt="linkdin icon" width="48" height="48">
+            </a>
+        </div>
+        <div id="copyright-info">
+            <p>WDD231 Class Project</p>
+            <p>Shirley Hatch</p>
+            <p>&copy;<span id="currentYear"></span> Gilbert Chamber of Commerce</p>
+            <p>Last Modification: <span id="lastModified"></span></p>
+        </div>
+    </footer>
+</body>
+</html>
