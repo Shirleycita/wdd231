@@ -25,6 +25,28 @@ header {
     grid-template-columns: auto 1fr 1fr;
     grid-template-rows: 1fr auto;
 }
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+main {
+    padding: 2em;
+}
+
+.video-embed {
+    margin-bottom: 2em;
+}
+
+.video-embed h3 {
+    margin: 0 0 1em 0;
+}
 
 #logo-link {
     /* grid-column: 1/2; */
