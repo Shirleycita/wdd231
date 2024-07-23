@@ -106,3 +106,8 @@ async function filterMembers() {
         console.error("Error displaying members: ", error);
     }  
 }
+
+// Get and display member directory cards
+import { displayMembers } from "./members.js";
+const cards = document.querySelector("#home-dir-cards");
+displayMembers(cards, true);
