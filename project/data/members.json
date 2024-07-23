@@ -1,0 +1,68 @@
+{
+    "members": 
+    [
+        {
+            "name": "Ross Dress for Less",
+            "address": "3831 S Gilbert Rd, Gilbert, AZ 85297",
+            "phone": "(480) 855-8544",
+            "email": "contactross@rossstores.com",
+            "url": "https://www.rossstores.com/",
+            "image": "../chamber/images/ross.jpg",
+            "memberLevel": 3
+        },
+        {
+            "name": "Bunky Boutique",
+            "address": "3150 E Ray Rd #174, Gilbert, AZ 85296",
+            "phone": "(480) 935-3687",
+            "email": "questions@bunky.com",
+            "url": "https://bunkyboutique.com/",
+            "image": "../chamber/images/bunky.webp",
+            "memberLevel": 2
+        },
+        {
+            "name": "Desert Financial Credit Union",
+            "address": "2925 S Market St, Gilbert, AZ 85295",
+            "phone": "(602) 433-7000",
+            "email": "costumerservice@financialcredit.com",
+            "url": "https://www.desertfinancial.com/en/",
+            "image": "../chamber/images/desert.png",
+            "memberLevel": 2
+        },
+        {
+            "name": "The Shop Boutique",
+            "address": "2180 E. Williams Field Rd. Suite 108",
+            "phone": "480-992-9316",
+            "email": "contacttheshop@gmail.com",
+            "url": "https://www.sipandshoparizona.com/",
+            "image": "../chamber/images/the-shop.webp",
+            "memberLevel": 1
+        },
+        {
+            "name": "Frutilandia",
+            "address": "1011 S Gilbert Rd, Mesa, AZ 85204",
+            "phone": "(480) 615-4411",
+            "email": "info@frutilandiausa.com",
+            "url": "https://frutilandiausa.com/",
+            "image": "../chamber/images/frutilandia.jpg",
+            "memberLevel": 1
+        },
+        {
+            "name": "Water Tower Plaza",
+            "address": "45 W Page Ave, Gilbert, AZ 85233",
+            "phone": "(480) 503-6200",
+            "email": "gilbert.digital@gilbertaz.gov",
+            "url": "https://www.gilbertaz.gov/",
+            "image": "../chamber/images/gilbert.webp",
+            "memberLevel": 3
+        },
+        {
+            "name": "SanTan Village Mall",
+            "address": "2218 E Williams Field Rd Suite 235, Gilbert, AZ 85295",
+            "phone": "(480) 282-9500",
+            "email": "info@sshopsantanvillage.com",
+            "url": "https://www.shopsantanvillage.com/",
+            "image": "../chamber/images/santan.jpeg",
+            "memberLevel": 2
+        }
+    ]
+}
