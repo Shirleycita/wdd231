@@ -1,4 +1,4 @@
-const memberData = "../chamber/data/members.json";
+const memberData = "../project/data/members.json";
 
 async function getMemberData() {
     try {
