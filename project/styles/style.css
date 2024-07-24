@@ -194,7 +194,7 @@ main {
 
 #current-weather-container {
     display: grid;
-    grid: template columns 1fr;;
+    grid-template-columns: 1fr;
     padding-right: 10px;
 }
 
