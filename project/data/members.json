@@ -3,7 +3,7 @@
     [
         {
             "name": "Rare Beauty",
-            "address": "3831 S Gilbert Rd, Gilbert, AZ 85297",
+            "address": "222 Pacific Coast Highway, Suite 200, El Segundo, CA 90245",
             "phone": "(480) 855-8544",
             "email": "contact@rarebeauty.com",
             "url": "https://www.rarebeauty.com/",
@@ -11,7 +11,7 @@
         },
         {
             "name": "Fenty Beauty",
-            "address": "3150 E Ray Rd #174, Gilbert, AZ 85296",
+            "address": "425 Market Street, 19th Floor, San Francisco, CA 94105",
             "phone": "(480) 935-3687",
             "email": "info@fentybeauty.com",
             "url": "https://https://fentybeauty.com/",
@@ -19,35 +19,35 @@
         },
         {
             "name": "Makeup Revolution",
-            "address": "2925 S Market St, Gilbert, AZ 85295",
+            "address": "3139 MacArthur Blvd Northbrook, IL, 60062-1903",
             "phone": "(602) 433-7000",
             "email": "support@makeuprevolution.com",
             "url": "https://www.revolutionbeauty.com/us/us/home",
             "image": "../project/images/makeuprevolution.webp"
         },
         {
-            "name": "The Shop Boutique",
-            "address": "2180 E. Williams Field Rd. Suite 108",
+            "name": "MAC Cosmetics",
+            "address": "130 Prince Street New York, NY 10012",
             "phone": "480-992-9316",
-            "email": "contacttheshop@gmail.com",
-            "url": "https://www.sipandshoparizona.com/",
-            "image": "../chamber/images/the-shop.webp"
+            "email": "support@mac.com",
+            "url": "https://www.maccosmetics.com/",
+            "image": "../project/images/mac.webp"
         },
         {
-            "name": "Frutilandia",
-            "address": "1011 S Gilbert Rd, Mesa, AZ 85204",
+            "name": "NYX Cosmetics",
+            "address": "230 South Tubeway Ave, Los Angeles, CA 90040",
             "phone": "(480) 615-4411",
             "email": "info@frutilandiausa.com",
-            "url": "https://frutilandiausa.com/",
-            "image": "../chamber/images/frutilandia.jpg"
+            "url": "https://www.nyxcosmetics.com/",
+            "image": "../project/images/nyx.webp"
         },
         {
-            "name": "Water Tower Plaza",
-            "address": "45 W Page Ave, Gilbert, AZ 85233",
+            "name": "NARS Cosmetics",
+            "address": "390 Madison Ave, Newy York, NY 01908",
             "phone": "(480) 503-6200",
             "email": "gilbert.digital@gilbertaz.gov",
-            "url": "https://www.gilbertaz.gov/",
-            "image": "../chamber/images/gilbert.webp"
+            "url": "https://www.narscosmetics.com/",
+            "image": "../project/images/nars.webp"
         }
     ]
 }
