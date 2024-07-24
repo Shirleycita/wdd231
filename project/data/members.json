@@ -2,31 +2,28 @@
     "members": 
     [
         {
-            "name": "Ross Dress for Less",
+            "name": "Rare Beauty",
             "address": "3831 S Gilbert Rd, Gilbert, AZ 85297",
             "phone": "(480) 855-8544",
-            "email": "contactross@rossstores.com",
-            "url": "https://www.rossstores.com/",
-            "image": "../chamber/images/ross.jpg",
-            "memberLevel": 3
+            "email": "contact@rarebeauty.com",
+            "url": "https://www.rarebeauty.com/",
+            "image": "../project/images/rarebeauty.webp"
         },
         {
-            "name": "Bunky Boutique",
+            "name": "Fenty Beauty",
             "address": "3150 E Ray Rd #174, Gilbert, AZ 85296",
             "phone": "(480) 935-3687",
-            "email": "questions@bunky.com",
-            "url": "https://bunkyboutique.com/",
-            "image": "../chamber/images/bunky.webp",
-            "memberLevel": 2
+            "email": "info@fentybeauty.com",
+            "url": "https://https://fentybeauty.com/",
+            "image": "../project/images/fenty.webp"
         },
         {
-            "name": "Desert Financial Credit Union",
+            "name": "Makeup Revolution",
             "address": "2925 S Market St, Gilbert, AZ 85295",
             "phone": "(602) 433-7000",
-            "email": "costumerservice@financialcredit.com",
-            "url": "https://www.desertfinancial.com/en/",
-            "image": "../chamber/images/desert.png",
-            "memberLevel": 2
+            "email": "support@makeuprevolution.com",
+            "url": "https://www.revolutionbeauty.com/us/us/home",
+            "image": "../project/images/makeuprevolution.webp"
         },
         {
             "name": "The Shop Boutique",
@@ -34,8 +31,7 @@
             "phone": "480-992-9316",
             "email": "contacttheshop@gmail.com",
             "url": "https://www.sipandshoparizona.com/",
-            "image": "../chamber/images/the-shop.webp",
-            "memberLevel": 1
+            "image": "../chamber/images/the-shop.webp"
         },
         {
             "name": "Frutilandia",
@@ -43,8 +39,7 @@
             "phone": "(480) 615-4411",
             "email": "info@frutilandiausa.com",
             "url": "https://frutilandiausa.com/",
-            "image": "../chamber/images/frutilandia.jpg",
-            "memberLevel": 1
+            "image": "../chamber/images/frutilandia.jpg"
         },
         {
             "name": "Water Tower Plaza",
@@ -52,17 +47,7 @@
             "phone": "(480) 503-6200",
             "email": "gilbert.digital@gilbertaz.gov",
             "url": "https://www.gilbertaz.gov/",
-            "image": "../chamber/images/gilbert.webp",
-            "memberLevel": 3
-        },
-        {
-            "name": "SanTan Village Mall",
-            "address": "2218 E Williams Field Rd Suite 235, Gilbert, AZ 85295",
-            "phone": "(480) 282-9500",
-            "email": "info@sshopsantanvillage.com",
-            "url": "https://www.shopsantanvillage.com/",
-            "image": "../chamber/images/santan.jpeg",
-            "memberLevel": 2
+            "image": "../chamber/images/gilbert.webp"
         }
     ]
 }
