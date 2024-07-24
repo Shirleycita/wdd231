@@ -191,15 +191,10 @@ main {
     padding: 20px;
 }
 
-#weather-icon {
-    grid-column: 1/2;
-    padding: 20px;
-    justify-self: center;
-}
 
 #current-weather-container {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid: template columns 1fr;;
     padding-right: 10px;
 }
 
@@ -219,8 +214,8 @@ main {
 #forecast-details {
     display: flex;
     flex-direction: column;
-    padding: 10px 20px;
-    font-size: 1.2rem;
+    padding-right: 10px;
+
 }
 
 #forecast-details span {
