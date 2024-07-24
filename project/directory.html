@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Slowly but Shirley</title>
+    <title>Directory page for Makeup Companies</title>
     <meta name="author" content="Shirley Hatch">
-    <meta name="description" content="Attributions page for Slowly but Shirley">
-    <meta property="og:title" content="Slowly but Shirley Final Project">
-    <meta property="og:description" content="Attributions page for Slowly but Shirley">
+    <meta name="description" content="Directory page for Makeup Companies">
+    <meta property="og:title" content="Final Project Directory">
+    <meta property="og:description" content="Directory page for Slowly but Shirley">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://shirleycita.github.io/wdd231/chamber/images/hero.webp">
-    <meta property="og:url" content="https://shirleycita.github.io/wdd231/project/attributions.html">
+    <meta property="og:image" content="https://shirleycita.github.io/wdd231/project/images/hero.webp">
+    <meta property="og:url" content="https://shirleycita.github.io/wdd231/project/comapnies.html">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/styles-large.css">
@@ -19,17 +19,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     <script src="scripts/header-footer.js" defer></script>
-
-    
+    <script src="scripts/directory.js" type="module"></script>
+    <script src="scripts/members.js" type="module"></script>
 </head>
 <body>
     <header>
         <a id="logo-link" href="index.html">
-            <img class="logo" src="images/logo.webp" alt="Slowly but Shirley logo" width="100" height="100">
+            <img class="logo" src="images/logo.webp" alt="logo of town of Gilbert" width="100" height="100">
         </a>
         <div id="header-titles">
-            <h1>Makeup by</h1>
-            <p>Slowly but Shirley</p>
+            <h1>Gilbert</h1>
+            <p>Chamber of Commerce</p>
         </div>
         <nav class="menu-links">
             <a href="index.html">Home</a>
@@ -40,14 +40,18 @@
         <div id="menu"></div>
     </header>
     <main>
-        <ul>
-            <li><a href="https://www.britannica.com/story/why-did-we-start-wearing-makeup">Hero Image: Photo by ©photka/Shutterstock.com</a></li>
-            <li><a href="https://www.istockphoto.com/photos/makeup">Large Hero Image: Photo by netrun78</a></li>
-            <li><a href="https://www.youtube.com/channel/UCZop-p7Pn7ylJqhuJQw0Mhg">All videos from tutorials page</a></li>
-            <li><a href="https://www.stickpng.com/img/icons-logos-emojis/shop-logos/fenty-beauty-by-rihanna-logo">Fenty Beauty Logo: By Fenty Beauty </a></li>
-            <li><a href="https://www.leapingbunny.org/brand/rare-beauty">Rare Beauty Logo: By Leaping Bunny Program</a></li>
-            <li><a href="https://makeupstore.com/product/650538/">Makeup Revolution Image: Photo by makeupstore</a></li>
-        </ul>
+        <div id="directory-container">
+            <h1 class="main-heading">Directory</h1>
+            <div class="dir-layout">
+                <input type="radio" name="dir-grid-list" id="dir-grid-view" checked>
+                <label for="dir-grid-view">Grid</label>
+
+                <input type="radio" name="dir-grid-list" id="dir-list-view">
+                <label for="dir-list-view">List</label>
+            </div>
+
+            <div id="directory-cards" class="dir-grid"></div>
+        </div>
     </main>
     <footer>
         <div id="contact-info">
